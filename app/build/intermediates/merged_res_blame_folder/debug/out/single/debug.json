@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_filter.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\drawable\\filter.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_rounded_12.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\drawable\\background_rounded_12.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\navigation_my_nav.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\navigation\\my_nav.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_news_logo.xml.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\news_logo.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\search.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_search.xml.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\search.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_adapter_news_item.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\adapter_news_item.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\search.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_shimmer_layout.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\shimmer_layout.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_radio_flat_selected.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\drawable\\shape_radio_flat_selected.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_webview.xml.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\fragment_webview.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_news_logo.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\news_logo.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_search.png.flat",
+        "source": "G:\\NewsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\search.png"
+    }
+]

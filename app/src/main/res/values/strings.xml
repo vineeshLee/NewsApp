@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LatestNews</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello </string>
+    <string name="search_news">Search news</string>
+    <string name="not_available">Unknown</string>
+    <string name="latest">Latest</string>
+    <string name="old">Old</string>
+</resources>

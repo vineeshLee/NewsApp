@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#0A66B5</color>
+    <color name="colorDefaultBg">#f6f6f6</color>
+    <color name="colorFloatingHint">#FF247FE5</color>
+    <color name="colorHint">#61000000</color>
+    <color name="colorPrimary">#24A0E5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorSecText">#61000000</color>
+    <color name="colorShapeBg">#3324A0E5</color>
+    <color name="colorShapeBorder">#24A0E5</color>
+    <color name="colorSignButtonText">#FFC0C3C4</color>
+    <color name="colorSignText">#99000000</color>
+    <color name="colorSignTitle">#DE000000</color>
+    <color name="colorWrongText">#FF0A66B5</color>
+    <color name="colorlight_blue">#24A0E5</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="lightgrey">#F6F6F6</color>
+    <color name="listBackgroundGray">#FFF6F6F6</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="corner_radius">3dp</dimen>
+    <string name="app_name">LatestNews</string>
+    <string name="default_web_client_id" translatable="false">439748999929-292n1t9nno1sp8o82rc9dp0bpljskt7t.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">439748999929</string>
+    <string name="google_api_key" translatable="false">AIzaSyAnppzYHxn0vG2OOPvqlDx7QtAbQnIhMPk</string>
+    <string name="google_app_id" translatable="false">1:439748999929:android:de284b6973005055d50028</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAnppzYHxn0vG2OOPvqlDx7QtAbQnIhMPk</string>
+    <string name="google_storage_bucket" translatable="false">newsapp-35639.appspot.com</string>
+    <string name="hello_blank_fragment">Hello </string>
+    <string name="latest">Latest</string>
+    <string name="not_available">Unknown</string>
+    <string name="old">Old</string>
+    <string name="project_id" translatable="false">newsapp-35639</string>
+    <string name="search_news">Search news</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Removing actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Removing actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

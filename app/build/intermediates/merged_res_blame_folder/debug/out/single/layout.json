@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_webview.xml",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\fragment_webview.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\adapter_news_item.xml",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\adapter_news_item.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\NewsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimmer_layout.xml",
+        "source": "G:\\NewsApp\\app\\src\\main\\res\\layout\\shimmer_layout.xml"
+    }
+]

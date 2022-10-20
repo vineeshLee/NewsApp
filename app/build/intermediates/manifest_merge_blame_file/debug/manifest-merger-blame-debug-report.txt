@@ -1,0 +1,283 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vineesh.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->G:\NewsApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->G:\NewsApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->G:\NewsApp\app\src\main\AndroidManifest.xml:4:5-67
+11-->G:\NewsApp\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:25:5-77
+13-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:25:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:26:5-68
+14-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:26:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
+15-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\6f179c91bbebf674cfbfd34e188e65df\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\6f179c91bbebf674cfbfd34e188e65df\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->G:\NewsApp\app\src\main\AndroidManifest.xml:5:5-24:19
+20        android:allowBackup="true"
+20-->G:\NewsApp\app\src\main\AndroidManifest.xml:6:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\vinee\.gradle\caches\transforms-3\0470781b5d3f075e4f1811e092cd46c8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:hardwareAccelerated="true"
+23-->G:\NewsApp\app\src\main\AndroidManifest.xml:12:9-43
+24        android:icon="@mipmap/ic_launcher"
+24-->G:\NewsApp\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="@string/app_name"
+25-->G:\NewsApp\app\src\main\AndroidManifest.xml:8:9-41
+26        android:largeHeap="true"
+26-->G:\NewsApp\app\src\main\AndroidManifest.xml:11:9-33
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->G:\NewsApp\app\src\main\AndroidManifest.xml:9:9-54
+28        android:supportsRtl="true"
+28-->G:\NewsApp\app\src\main\AndroidManifest.xml:10:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme"
+30-->G:\NewsApp\app\src\main\AndroidManifest.xml:14:9-40
+31        android:usesCleartextTraffic="true" >
+31-->G:\NewsApp\app\src\main\AndroidManifest.xml:13:9-44
+32        <activity
+32-->G:\NewsApp\app\src\main\AndroidManifest.xml:15:9-23:20
+33            android:name="com.vineesh.newsapp.MainActivity"
+33-->G:\NewsApp\app\src\main\AndroidManifest.xml:16:13-60
+34            android:exported="true" >
+34-->G:\NewsApp\app\src\main\AndroidManifest.xml:17:13-36
+35            <intent-filter>
+35-->G:\NewsApp\app\src\main\AndroidManifest.xml:18:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->G:\NewsApp\app\src\main\AndroidManifest.xml:19:17-69
+36-->G:\NewsApp\app\src\main\AndroidManifest.xml:19:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->G:\NewsApp\app\src\main\AndroidManifest.xml:21:17-77
+38-->G:\NewsApp\app\src\main\AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:25:9-31:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:26:13-84
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:28:13-30:85
+47                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+47-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:29:17-126
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-messaging-ktx:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\ecd911dcfbd9241c3cb10e91d0ae9b0d\transformed\firebase-messaging-ktx-23.1.0\AndroidManifest.xml:30:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\a9f1789c27b744be8d44e2f663f54927\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
+50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\a9f1789c27b744be8d44e2f663f54927\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\a9f1789c27b744be8d44e2f663f54927\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
+53                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+53-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
+55            <meta-data
+55-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\6f179c91bbebf674cfbfd34e188e65df\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+56                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+56-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\6f179c91bbebf674cfbfd34e188e65df\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\6f179c91bbebf674cfbfd34e188e65df\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\vinee\.gradle\caches\transforms-3\495d58000f6478fe7595846eb2939563\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+59                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+59-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\vinee\.gradle\caches\transforms-3\495d58000f6478fe7595846eb2939563\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\vinee\.gradle\caches\transforms-3\495d58000f6478fe7595846eb2939563\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\vinee\.gradle\caches\transforms-3\068f4da54f863c38b3c65780528af3d5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+62                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+62-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\vinee\.gradle\caches\transforms-3\068f4da54f863c38b3c65780528af3d5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\vinee\.gradle\caches\transforms-3\068f4da54f863c38b3c65780528af3d5\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+64        </service>
+65
+66        <uses-library
+66-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+67            android:name="androidx.window.extensions"
+67-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+69        <uses-library
+69-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+70            android:name="androidx.window.sidecar"
+70-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\e259ba1b19e468d7c609f915fdc1dc34\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+72
+73        <receiver
+73-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
+74            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+74-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
+75            android:exported="true"
+75-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
+76            android:permission="com.google.android.c2dm.permission.SEND" >
+76-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+77            <intent-filter>
+77-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:35:13-37:29
+78                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+78-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:36:17-81
+78-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:36:25-78
+79            </intent-filter>
+80        </receiver>
+81        <!--
+82             FirebaseMessagingService performs security checks at runtime,
+83             but set to not exported to explicitly avoid allowing another app to call it.
+84        -->
+85        <service
+85-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
+86            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+86-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
+89            <intent-filter android:priority="-500" >
+89-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:48:13-50:29
+89-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:48:28-51
+90                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+90-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:49:17-78
+90-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\vinee\.gradle\caches\transforms-3\fca73c2d0e21f1a2d889df3e7dd8d6d1\transformed\firebase-messaging-23.1.0\AndroidManifest.xml:49:25-75
+91            </intent-filter>
+92        </service>
+93
+94        <provider
+94-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+95            android:name="com.google.firebase.provider.FirebaseInitProvider"
+95-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+96            android:authorities="com.vineesh.newsapp.firebaseinitprovider"
+96-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+98            android:exported="false"
+98-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+99            android:initOrder="100" />
+99-->[com.google.firebase:firebase-common:20.2.0] C:\Users\vinee\.gradle\caches\transforms-3\0afeca0312f9eded4feee6b97e8c5638\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+100
+101        <receiver
+101-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+102-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+104            android:exported="false" >
+104-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+105        </receiver>
+106
+107        <service
+107-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+108            android:name="com.google.android.gms.measurement.AppMeasurementService"
+108-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+109            android:enabled="true"
+109-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+110            android:exported="false" />
+110-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+111        <service
+111-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+112            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+112-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+115            android:permission="android.permission.BIND_JOB_SERVICE" />
+115-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\vinee\.gradle\caches\transforms-3\4b51eca44bbc7dd5006d5bb2f04d7c36\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vinee\.gradle\caches\transforms-3\59b49b59cf6d4e47f9cbb8e4ff9448c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vinee\.gradle\caches\transforms-3\59b49b59cf6d4e47f9cbb8e4ff9448c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vinee\.gradle\caches\transforms-3\59b49b59cf6d4e47f9cbb8e4ff9448c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\vinee\.gradle\caches\transforms-3\59b49b59cf6d4e47f9cbb8e4ff9448c9\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinee\.gradle\caches\transforms-3\437e575ca76f081d13b3746774950531\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinee\.gradle\caches\transforms-3\437e575ca76f081d13b3746774950531\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\vinee\.gradle\caches\transforms-3\437e575ca76f081d13b3746774950531\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+125
+126        <service
+126-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+127            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+127-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+128            android:exported="false" >
+128-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+129            <meta-data
+129-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+130                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+130-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+131                android:value="cct" />
+131-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\caf9c62ffe9c3d9800ae6f2dba18a654\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+132        </service>
+133        <service
+133-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+134            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+134-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+135            android:exported="false"
+135-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+136            android:permission="android.permission.BIND_JOB_SERVICE" >
+136-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+137        </service>
+138
+139        <receiver
+139-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+140            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+140-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+141            android:exported="false" />
+141-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\vinee\.gradle\caches\transforms-3\bf2225bff8199d1f109d934a379856e1\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+142
+143        <provider
+143-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+145            android:authorities="com.vineesh.newsapp.androidx-startup"
+145-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+146            android:exported="false" >
+146-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+147            <meta-data
+147-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+148-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+149                android:value="androidx.startup" />
+149-->[androidx.emoji2:emoji2:1.0.0] C:\Users\vinee\.gradle\caches\transforms-3\4c41c71a7c893576aa9b30e1a3556a4b\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+150            <meta-data
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vinee\.gradle\caches\transforms-3\df697936883817ec31411e30345137ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+151-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vinee\.gradle\caches\transforms-3\df697936883817ec31411e30345137ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+152                android:value="androidx.startup" />
+152-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\vinee\.gradle\caches\transforms-3\df697936883817ec31411e30345137ad\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+153        </provider>
+154    </application>
+155
+156</manifest>
